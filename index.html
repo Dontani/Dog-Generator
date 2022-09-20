@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Dog Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Montserrat:wght@100&family=Poppins:wght@100&family=Roboto&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+        <h1>Doggo Viewer</h1>
+        <span id="dogName">Dougie the Default Doggo</span>
+    </header>
+    <section class="sectionContainer">
+        <section class ='column' id="leftColumn">
+            <section class="item">
+                <span>Choose your Breed!</span>
+            </section>
+            <section class="item">
+                <select class="breeds">
+                    <option value="starter" selected>Select Me!</option>
+                </select>
+            </section>
+            <section class="item">
+                <section class="imgContainer">
+                    <section class="container">
+                        <div>🐶🐶🐶🐶🐶🐶🐶</div>
+                        <img 
+                        src="http://placecorgi.com/500/500"
+                        class = 'dogImg'
+                        alt = 'cute corgi for the homepage' 
+                        />
+                    </section>
+                </section>
+            </section>
+        </section>
+        <section class = 'column'>
+            <section class="item">
+                <span>Doggo Characteristics</span>
+                <ul>
+                    <li id="sex">S: Male</li>
+                    <li id="age">Age: 2</li>
+
+                    <li id="likes">Likes: Tennis Balls, Canes,Drooling</li>
+                    <li id="dislikes">Dislikes: Cats,Fireworks</li>
+                    <li id="funFact"> Fun Fact: Thinks Mayonaise is an instrument</li>
+                </ul>
+            </section>
+        </section>
+    </section>
+    <script src="main.js"></script>
+  </body>
+</html>
